@@ -1,20 +1,19 @@
 
 import './App.css';
-import Propiedades from './Propiedades';
-
-
-
+import Propiedades from './componentes/Propiedades';
 export default function App() {
   /*   const nombre = "Ariel";
     const id = 25
     const condicion = false */
+  const cadena = 'Cadena de Texto'
   return (
     <>
       <Propiedades
-        cadena='Cadena de Texto'
+        cadena={cadena}
         number={20}
         booleano={false}
-
+        array={['Hola', 256, 'Mundo']}
+        objeto={{ nombre: "Ariel", apellido: "Tecay" }}
       />
       {/*       <img alt="1" />
       <img alt='2'></img>
