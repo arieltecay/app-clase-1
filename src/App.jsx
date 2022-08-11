@@ -1,6 +1,9 @@
 
 import './App.css';
+import ChangeColor from './componentes/ChangeColor';
+import { Contador } from './componentes/Contador';
 import Propiedades from './componentes/Propiedades';
+
 export default function App() {
   /*   const nombre = "Ariel";
     const id = 25
@@ -15,6 +18,10 @@ export default function App() {
         array={['Hola', 256, 'Mundo']}
         objeto={{ nombre: "Ariel", apellido: "Tecay" }}
       />
+      <ChangeColor />
+      <div>
+        <Contador />
+      </div>
       {/*       <img alt="1" />
       <img alt='2'></img>
       <input type="text" />
