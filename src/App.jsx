@@ -20,6 +20,7 @@ export default function App() {
       />
       <ChangeColor />
       <div>
+        
         <Contador />
       </div>
       {/*       <img alt="1" />
